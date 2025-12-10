@@ -1,17 +1,29 @@
+body {
+    font-family: Bradley Hand, cursive;
+    background-image: url(../images/snow2.gif);
+}
+
+h1 {
+    font-size: 45px;
+}
+, nav, footer{
+    background-color: hotpink;
+}
 a:hover {
-    color:hotpink;
+    color: navy;
 }
 
 .bbhome {
-    background-color: yellowgreen;
+    background-color: darkorange;
 }
 
 .logo {
-    background-color: rgba(255,215,0,0.5);
+    
     height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
 .bbsec {
@@ -32,6 +44,14 @@ nav {
 }
 
 footer {
-    color:green;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: orange;
+    z-index: 1000;
+}
+p{
+    font-size: 10px;
 }
