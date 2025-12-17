@@ -2,6 +2,17 @@
 <html>
     <head>
         <title>sussy.win</title>
+        <script>
+        const colors = ['#ff0000', '#0000ff', '#00ff00', '#ffff00']; // Colors to cycle through
+        let currentIndex = 0;
+
+        function changeThemeColor() {
+            currentIndex = (currentIndex + 1) % colors.length; // Cycle through colors
+            document.querySelector("meta[name=theme-color]").setAttribute("content", colors[currentIndex]);
+        }
+
+        setInterval(changeThemeColor, 1000); // Change color every second
+        </script>
         <meta name="theme-color" content="#FF38AC"/>
         <link rel="stylesheet" href="assets/css/mystyle.css">
         <link rel="icon" href="assets/images/favicon.gif">
