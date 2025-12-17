@@ -12,10 +12,10 @@ body {
 
 #bluesmoke {
     position: absolute;
-    top: 235px;
-    left: 40px;
-    width: 70%;
-    height: 14.5%;
+    top: 230px;
+    left: 360px;
+    width: 250px;
+    height: 150px;
     z-index: -1;
 }
 .stank {
