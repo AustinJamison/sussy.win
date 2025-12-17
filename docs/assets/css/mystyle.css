@@ -1,20 +1,26 @@
 body {
-    font-family: Bradley Hand, cursive;
-    background-image: url(../images/snow2.gif);
+
+}
+.topper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 14.5%;
+    z-index: -1;
 }
 
 h1 {
     font-size: 45px;
 }
-, nav, footer{
-    background-color: hotpink;
-}
+
 a:hover {
     color: navy;
 }
 
 .bbhome {
     background-color: darkorange;
+    background-image: url(../images/snow2.gif);
 }
 
 .logo {
@@ -33,6 +39,22 @@ a:hover {
 .bbnet {
     background-color: rgb(33,171,205)   ;
 }
+
+
+
+h4 {
+    background-color: gold;
+}
+.t {
+    font-weight: 600;
+}
+
+.a {
+    color: darkslategray;
+
+}
+
+
 h1 {
     color: green;
     text-align: center;
@@ -41,6 +63,12 @@ h1 {
 nav {
     margin: auto;
     text-align: center;
+}
+
+.center {
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    
 }
 
 footer {
@@ -52,6 +80,9 @@ footer {
     background-color: orange;
     z-index: 1000;
 }
-p{
+footer::p{
     font-size: 10px;
+    
 }
+
+
