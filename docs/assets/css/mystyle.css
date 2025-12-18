@@ -10,13 +10,13 @@ body {
     z-index: -1;
 }
 
-#bluesmoke {
+#man {
     position: absolute;
-    top: 230px;
-    left: 360px;
+    top: 20%;
+    left: 50%;
     width: 250px;
     height: 150px;
-    z-index: -1;
+    z-index: -2;
 }
 .stank {
     background-color: lightgray;
