@@ -1,5 +1,6 @@
 body {
-
+    position: relative; /* Establish relative positioning for absolute child elements */
+    height: 100vh; /* Also can be specified */
 }
 .topper {
     position: absolute;
@@ -29,9 +30,31 @@ a:hover {
     color: navy;
 }
 
-.bbhome {
-    background-color: darkorange;
-    background-image: url(../images/snow2.gif);
+h1 {
+    padding-top: 1.5%;
+    margin: 0; /* Reset margins specifically for headings and paragraphs */
+}
+
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default paddings */
+    height: 100%; /* Ensure both html and body take full height */
+
+}
+
+
+.home::before {
+    content: '';
+    margin: 0;
+    height: 100vh;
+    position: absolute;
+    top: 0; /* Align it to the top */
+    left: 0; /* Align it to the left */
+    right: 0; /* Stretch it to the right */
+    background-image: url(../images/winter.png);
+    background-size: cover;
+    rgba(0, 0, 255, 0.5);
+    z-index: -1; /* Ensure it's behind the content */
 }
 
 .logo {
@@ -90,6 +113,7 @@ footer {
     width: 100%;
     background-color: orange;
     z-index: 1000;
+    opacity: 80%;
 }
 footer::p{
     font-size: 10px;
