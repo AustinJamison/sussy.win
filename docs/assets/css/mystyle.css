@@ -8,19 +8,32 @@
     z-index: -1;
 }
 
-#man {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    width: 250px;
-    height: 150px;
-    z-index: -2;
+#co {
+    font-size: 15px;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+#red {
+    color: red;
+}
+
+#red:hover {
+    color: purple;
+    font-size: 17px;
+}
+
+h1:hover {
+    color: purple;
+    font-size: 52px;
+}
+
+
+
 .stank {
     background-color: lightgray;
-}
-h1 {
-    font-size: 45px;
 }
 
 a:hover {
