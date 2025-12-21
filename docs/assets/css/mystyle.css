@@ -7,6 +7,36 @@
     height: 14.5%;
     z-index: -1;
 }
+.roller {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 14.5%;
+    z-index: -1;
+    
+}
+
+#skyblue {
+    color: skyblue;
+    padding-left: 5px;
+}
+
+#black:hover {
+    color: blue;
+    font-size: 17px;
+}
+
+#center {
+    text-align: center;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+
+.gallery {
+    width: 20%;
+    height: 20%;
+}
 
 #co {
     font-size: 15px;
@@ -14,10 +44,12 @@
 
 h1 {
     font-size: 50px;
+    -webkit-text-stroke: 1.5px black;
 }
 
 #red {
     color: red;
+    padding-right: 5px;
 }
 
 #red:hover {
@@ -30,16 +62,13 @@ h1:hover {
     font-size: 52px;
 }
 
-
+.diesel {
+    background-color: cadetblue;
+}
 
 .stank {
     background-color: lightgray;
 }
-
-a:hover {
-    color: navy;
-}
-
 h1 {
     padding-top: 1.5%;
     margin: 0; /* Reset margins specifically for headings and paragraphs */
