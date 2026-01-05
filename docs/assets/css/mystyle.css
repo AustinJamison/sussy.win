@@ -1,3 +1,6 @@
+:root {
+    overscroll-behavior: none;  
+}
 
 .topper {
     position: absolute;
@@ -98,7 +101,7 @@ h1 {
 
 
 h4 {
-    background-color: gold;
+    background-color: red;
 }
 .t {
     font-weight: 600;
