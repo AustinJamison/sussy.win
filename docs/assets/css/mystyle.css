@@ -1,31 +1,32 @@
 :root {
     overscroll-behavior: none;  
 }
-
-#logo {
-    width: 50px;
+.margin {
+    margin-left: 20px;
 }
-
-a {
+nav a {
     margin-right: 5px;
     margin-left: 5px;
 }
-
 a:hover {
     color: purple;
 }
-
-span {
+.b {
     font-weight: bold;
-    margin-right: 5px;
-    font-style: italic;
-    
 }
-
-#margin {
-    margin-left: 10px;
-}
-
 .underline {
     text-decoration: underline;
+}
+.i {
+    font-style: italic;
+}
+
+.m {
+    margin-right: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
 }
