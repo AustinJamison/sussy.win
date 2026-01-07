@@ -37,8 +37,8 @@
         
         <br>
         <br>
-        <div id="margin">
-            <p><span class="i b m">kryptós graphein</span>(cryptography)</p>
+        <div class="ml">
+            <p><span class="i b mr">kryptós graphein</span>(cryptography)</p>
             <p>to write secrets</p>
             <p>substitution ciphers are some of the oldest encryption techniques. most famous being the Caesar Cipher; used by Julius Caesar 2000 years ago. each letter in the plaintext message is replaced by a fixed letter <span class="i b">x</span> positions left or right. 
                 <br><span class="i">the example below is using a left shift of 3.</span></p>
@@ -102,13 +102,19 @@
                     <td>W</td>
                 </tr>
             </table>
-            <p><span>PLAINTEXT:</span> SUSSY LIL BOY</p>
-            <p><span>CIPHERTEXT:</span> PRPPV IFI YLV</p>
+            <p><span class="u ml">PLAINTEXT:</span> SUSSY LIL BOY</p>
+            <p><span class="u ml">CIPHERTEXT:</span> PRPPV IFI YLV</p>
             <p>deciphering is reserve of the previous shift.</p>
         </div>
-        <div>
+        <div class="ml">
             <p><span class="b">symmetric</span> and <span class="b">asymmetric</span> are 2 types of encryption. Caesar Cipher is an example of symmetric encryption, which means the same secret key (in this case "3") encrypts and decrypts the message.
-                where as asymmetric encryption uses a "public key" to encrypt and a related "private key" to decrypt. the public key can be freely shared and publicly known all while not comprising the encryption.</p>
+                where as asymmetric encryption uses a "public key" to encrypt and a related "private key" to decrypt. the public key can be freely shared and publicly known all while not comprising the encryption. <span class="i">example of asymmetric encryption below:</span></p>
+            <p><span class="b">PGP</span> (pretty good privacy) refers to programs using public key cryptography for <span class="b">data encryption</span> and <span class="b">digital signatures</span>. the start of PGP originated by a man named Philip R. Zimmermann in 1991. PGP was birthed as a software application as a way to encrypt files and email communications. the original program is in the grave, but numerous open-source and commercial implementations of the OpenPGP standard (revised from mr zimmermann's pgp model) are widely available.  </p>
+            <p class="u">how it works</p>
+            <p class="ml">couple things to remember is that the public key encrypts & private key decrypts. so you want to send a package to your friend that only he can open. how do you do it? first your friend needs to create a <span class="b">key pair</span>. that key pair will contain a "public" and "private"</p>
+            <p class="u">what its used for</p>
+            <p><span class="b i ml">encryption</span></p>
+            <p><span class="b i ml">digital signatures</span> are used for authentication and integrity. you would then use your <span class="u">private key 2 encrypt</span>. thus since the "private key" is well private, it can be assumed only that person(s) has access to it. we now have <span class="b">non-repudiation</span> meaning the signer cannot deny having signed the message.</p>
         </div>
     </body>
 </html>
