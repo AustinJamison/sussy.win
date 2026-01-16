@@ -27,7 +27,7 @@ a:hover {
     background: lightgray;
     position: relative; 
     height: 50px;
-    width: 500px;
+    width: 300px;
 }
 .child {
     position: absolute;
@@ -40,13 +40,13 @@ a:hover {
     background: lightgray;
     position: relative; 
     height: 30px;
-    width: 500px;
+    width: 300px;
 }
 .certbox2 {
     background: darkgrey;
     position: relative; 
     height: 30px;
-    width: 500px;
+    width: 300px;
 }
 table, th, td {
     border: 1px solid black;
