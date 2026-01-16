@@ -23,8 +23,31 @@ a:hover {
 .i {
     font-style: italic;
 }
-
-
+.box {
+    background: lightgray;
+    position: relative; 
+    height: 50px;
+    width: 500px;
+}
+.child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    margin-left: 60px;
+}
+.certbox {
+    background: lightgray;
+    position: relative; 
+    height: 30px;
+    width: 500px;
+}
+.certbox2 {
+    background: darkgrey;
+    position: relative; 
+    height: 30px;
+    width: 500px;
+}
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
