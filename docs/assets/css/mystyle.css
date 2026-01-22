@@ -3,6 +3,9 @@
     overscroll-behavior: none;  
 }
 */
+body {
+    padding-bottom: 50px;
+}
 .ml {
     margin-left: 20px;
 }
