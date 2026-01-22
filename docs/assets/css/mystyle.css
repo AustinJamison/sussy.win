@@ -36,6 +36,13 @@ a:hover {
     margin: 0;
     margin-left: 60px;
 }
+.paybox {
+    background: orange;
+    position: relative; 
+    height: 300px;
+    width: 300px;
+}
+/*
 .certbox {
     background: lightgray;
     position: relative; 
@@ -48,8 +55,15 @@ a:hover {
     height: 30px;
     width: 300px;
 }
+*/
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
+}
+
+.unwrap {
+    width:300px;
+    background: rgba(255, 255, 0, 0.3);
+    word-wrap: break-word;
 }
