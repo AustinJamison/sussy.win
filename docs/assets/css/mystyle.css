@@ -9,6 +9,9 @@
 .mr {
     margin-right: 10px;
 }
+.mt {
+    margin-top: 10px;
+}
 nav a {
     margin-right: 5px;
     margin-left: 5px;
@@ -74,4 +77,15 @@ table, th, td {
 .test {
     border-color: red;
     background-color: lightcoral;
+}
+.lightgrey {
+    margin: 0px;
+    background: lightgray;
+    width:300px;
+    word-wrap: break-word;
+}
+.darkgrey {
+    margin: 0px;
+    background: darkgrey;
+    width:300px;
 }
