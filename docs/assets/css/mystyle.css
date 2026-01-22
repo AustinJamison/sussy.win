@@ -42,28 +42,34 @@ a:hover {
     height: 300px;
     width: 300px;
 }
-/*
-.certbox {
-    background: lightgray;
-    position: relative; 
-    height: 30px;
-    width: 300px;
+.lightgreen {
+    background: rgba(146,237,79, 0.5);
+    width:300px;
+    margin-bottom: -10px;
 }
-.certbox2 {
-    background: darkgrey;
-    position: relative; 
-    height: 30px;
-    width: 300px;
-}
-*/
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
 }
 
-.unwrap {
+.lightorange {
+    background: rgba(255,195,61, 0.5);
+    width:300px;
+    word-wrap: break-word;
+    margin-bottom: -10px;
+}
+
+.lightyellow {
     width:300px;
     background: rgba(255, 255, 0, 0.5);
     word-wrap: break-word;
+}
+.nolink {
+   color: black;
+   text-decoration: none; 
+}
+.test {
+    border-color: red;
+    background-color: lightcoral;
 }
