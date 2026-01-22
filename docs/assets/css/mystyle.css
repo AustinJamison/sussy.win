@@ -64,6 +64,6 @@ table, th, td {
 
 .unwrap {
     width:300px;
-    background: rgba(255, 255, 0, 0.3);
+    background: rgba(255, 255, 0, 0.5);
     word-wrap: break-word;
 }
