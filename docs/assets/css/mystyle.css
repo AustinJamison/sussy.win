@@ -133,7 +133,6 @@ table, th, td {
 }
 .button {
     background: #75BFEC;
-    border: 2px groove;
 }
 .button:hover {
     background: #6879D0;
