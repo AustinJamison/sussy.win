@@ -7,7 +7,7 @@ body {
     padding-bottom: 50px;
 }
 .ml {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .mr {
     margin-right: 10px;
@@ -94,4 +94,48 @@ table, th, td {
 }
 .pink {
     color: deeppink;
+}
+
+
+
+/*BUTTONS*/
+.container {
+    position:relative;
+    width: 300px;
+    height: 100px;
+    margin: 0 0 0 10px;
+    border: 2px groove;
+    border-width: medium;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 300px;
+    height: 100px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.container:hover {
+    border: 2px groove;
+    border-width: medium;
+}
+.container:hover .image {
+    opacity: 0.4
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+button {
+    background: lightgrey;
 }
