@@ -95,7 +95,10 @@ table, th, td {
 .pink {
     color: deeppink;
 }
-
+#discord {
+    width: 40px;
+    height: 40px;
+}
 
 
 /*BUTTONS*/
