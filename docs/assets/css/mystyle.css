@@ -115,14 +115,9 @@ table, th, td {
     transition: .5s ease;
     backface-visibility: hidden;
 }
-.container:hover {
-    border: 2px groove;
-    border-width: medium;
-}
 .container:hover .image {
     opacity: 0.4
 }
-
 .container:hover .middle {
     opacity: 1;
 }
@@ -136,6 +131,11 @@ table, th, td {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-button {
-    background: lightgrey;
+.button {
+    background: #75BFEC;
+    border: 2px groove;
+}
+.button:hover {
+    background: #6879D0;
+    cursor: pointer; 
 }
