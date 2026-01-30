@@ -72,6 +72,7 @@ table, th, td {
     width:300px;
     background: rgba(255, 255, 0, 0.5);
     word-wrap: break-word;
+    text-align: center;
 }
 .nolink {
    color: black;
@@ -135,5 +136,8 @@ table, th, td {
 }
 .button:hover {
     background: #6879D0;
-    cursor: pointer; 
+    cursor: pointer;
+}
+.black, .black:hover{
+    color: black;
 }
