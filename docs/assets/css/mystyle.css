@@ -1,8 +1,11 @@
-/*
+
 :root {
-    overscroll-behavior: none;  
+    /* overscroll-behavior: none;   */
+    background-color: black;
 }
-*/
+pre {
+    color: #4AF262;
+}
 body {
     padding-bottom: 50px;
 }
