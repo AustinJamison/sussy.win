@@ -61,10 +61,27 @@ a:hover {
     width:300px;
     margin-bottom: -10px;
 }
+
+
+
+
+.tablekey {
+    background: rgba(102, 102, 102, 0.2);
+}
+
 table, th, td {
-    border: 1px solid black;
+    // border: 1px solid lightgoldenrodyellow;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 2px;
+}
+
+.costcolor {
+    background: rgba(74, 242, 98, 0.5);
+    color: #4AF262;
+}
+.durcolor {
+    background: rgba(255, 0, 0, 0.5);
+    color: red;
 }
 
 .lightorange {
@@ -148,4 +165,6 @@ table, th, td {
 }
 .white {
     color:lightgoldenrodyellow;
+    word-wrap: break-word;
+    width:300px;
 }
