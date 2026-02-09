@@ -6,6 +6,9 @@
 pre {
     color: #4AF262;
 }
+.c {
+    text-align: center;
+}
 body {
     padding-bottom: 50px;
 }
@@ -75,7 +78,6 @@ table, th, td {
     width:300px;
     background: rgba(255, 255, 0, 0.5);
     word-wrap: break-word;
-    text-align: center;
 }
 .nolink {
    color: black;
@@ -87,13 +89,13 @@ table, th, td {
 }
 .lightgrey {
     margin: 0px;
-    background: lightgray;
+    background: rgba(74, 242, 98, 0.5);
     width:300px;
     word-wrap: break-word;
 }
 .darkgrey {
     margin: 0px;
-    background: darkgrey;
+    background: rgba(102, 102, 102, 0.5);
     width:300px;
 }
 .pink {
@@ -143,4 +145,7 @@ table, th, td {
 }
 .black, .black:hover{
     color: black;
+}
+.white {
+    color:lightgoldenrodyellow;
 }
