@@ -3,6 +3,7 @@
     background-color: black;
     margin: 0;
     padding: 0;
+    z-index: 2
 }
 .imp {
     background-color: transparent !important;
@@ -12,8 +13,16 @@ pre {
     margin-left: 15px;
 }
 nav {
-    margin-left: 18px;
+    margin-left: 10px;
+    width: 300px;
+    
 }
+.navfade {
+    background: radial-gradient(circle, rgba(255,0,0, 0.5), rgba(218,165,32,0.3), rgba(0,0,255,.3), transparent);
+padding: 10px;
+}
+
+
 .c {
     text-align: center;
 }
@@ -34,7 +43,10 @@ nav a {
     margin-left: 5px;
 }
 a:hover {
-    color: purple;
+    color: lightgoldenrodyellow;
+}
+a:active {
+    color: orange;
 }
 .b {
     font-weight: bold;
