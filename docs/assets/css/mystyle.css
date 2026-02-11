@@ -42,11 +42,14 @@ nav a {
     margin-right: 5px;
     margin-left: 5px;
 }
+a:link {
+    color: aqua;
+}
 a:hover {
-    color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow !important;
 }
 a:active {
-    color: orange;
+    color: orange !important;
 }
 .b {
     font-weight: bold;
