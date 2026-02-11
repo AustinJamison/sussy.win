@@ -1,7 +1,9 @@
-
 :root {
     /* overscroll-behavior: none;   */
     background-color: black;
+}
+.imp {
+    background-color: transparent !important;
 }
 pre {
     color: #4AF262;
@@ -64,25 +66,38 @@ a:hover {
 
 
 
-
-.tablekey {
-    background: rgba(102, 102, 102, 0.2);
-}
-
-table, th, td {
-    // border: 1px solid lightgoldenrodyellow;
+/* \----------------------TABLE----------------------\ */
+table, td, th, tbody, theader {
     border-collapse: collapse;
-    padding: 2px;
+    border: none;
+}
+th {
+    background: rgba(102, 102, 102, 0.2);
+    color: lightgoldenrodyellow;
+    width: 20%;
+}
+.monero {
+    background: rgba(255, 102, 0, .8);
+    color: rgba(146,237,79, 1);
+    text-align: center;
+    font-weight: bold;
+}
+.cashapp {
+    background: rgba(76, 76, 76, .8);
+    color: rgba(146,237,79, 1);
+    text-align: center;
+    font-weight: bold;
 }
 
-.costcolor {
-    background: rgba(74, 242, 98, 0.5);
-    color: #4AF262;
-}
-.durcolor {
-    background: rgba(255, 0, 0, 0.5);
-    color: red;
-}
+
+
+
+
+
+
+
+
+
 
 .lightorange {
     background: rgba(255,195,61, 0.5);
@@ -119,7 +134,8 @@ table, th, td {
     color: deeppink;
 }
 
-/*BUTTONS*/
+/* \----------------------buttons----------------------\ */
+
 .container {
     position:relative;
     width: 300px;
