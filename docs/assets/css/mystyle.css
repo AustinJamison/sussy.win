@@ -1,12 +1,18 @@
 :root {
     /* overscroll-behavior: none;   */
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 .imp {
     background-color: transparent !important;
 }
 pre {
     color: #4AF262;
+    margin-left: 15px;
+}
+nav {
+    margin-left: 18px;
 }
 .c {
     text-align: center;
@@ -63,8 +69,6 @@ a:hover {
     width:300px;
     margin-bottom: -10px;
 }
-
-
 
 /* \----------------------TABLE----------------------\ */
 table, td, th, tbody, theader {
