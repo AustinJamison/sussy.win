@@ -3,7 +3,11 @@
     background-color: black;
     margin: 0;
     padding: 0;
-    z-index: 2
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+html::-webkit-scrollbar {
+    display: none;
 }
 .imp {
     background-color: transparent !important;
