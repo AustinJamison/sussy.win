@@ -34,7 +34,7 @@ body {
     padding-bottom: 50px;
 }
 .ml {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .mr {
     margin-right: 10px;
@@ -159,7 +159,7 @@ th {
     position:relative;
     width: 300px;
     height: 100px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 20px;
     border: 2px groove;
     border-width: medium;
 }
