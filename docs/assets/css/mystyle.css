@@ -138,21 +138,10 @@ th {
     border-color: red;
     background-color: lightcoral;
 }
-.lightgrey {
-    margin: 0px;
-    background: rgba(74, 242, 98, 0.5);
-    width:300px;
-    word-wrap: break-word;
-}
-.darkgrey {
-    margin: 0px;
-    background: rgba(102, 102, 102, 0.5);
-    width:300px;
-}
+
 .pink {
     color: deeppink;
 }
-
 /* \----------------------buttons----------------------\ */
 
 .container {
@@ -203,3 +192,45 @@ th {
     word-wrap: break-word;
     width:300px;
 }
+
+
+/* \----------------------about----------------------\ */
+/* contacts */
+#contact {
+    width:300px;
+    background:  rgba(255,211,0,.9);
+    margin: 0 0 0 20px;
+    font-style: italic;
+    text-align: center;
+}
+/* q&a */
+#q\&a p.q::before {
+    content: "Q: ";
+    font-weight: bold;
+}
+#q\&a p.q {
+    background: rgba(37, 121, 49, 1);
+    width:300px;
+    margin: 0 0 0 20px;
+}
+#q\&a p.a::before {
+    content: "A: ";
+    font-weight: bold;
+}
+#q\&a p.a {
+    margin: 0 0 0 20px;
+    background: rgba(0, 0, 0, 1);
+    width:300px;
+}
+#q\&a {
+    color: lightgoldenrodyellow;
+    background-color: #001818;
+    padding: 10px 0 20px 0;
+    width: 345px;
+    border-radius: 10px;
+}
+#q\&a div {
+    margin: 10px 0 0 0;
+}
+
+
