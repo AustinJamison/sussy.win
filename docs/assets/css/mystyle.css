@@ -78,7 +78,15 @@ th {
     text-align: center;
     font-weight: bold;
 }
-/* \----------------------buttons----------------------\ */
+/* \----------------------cheats----------------------\ */
+#cheats {
+    color: lightgoldenrodyellow;
+    background: radial-gradient(circle,  rgba(0, 0, 100, 1), #001818 75%);
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 345px;
+    border-radius: 10px;
+}
 .container {
     position:relative;
     width: 300px;
@@ -118,15 +126,6 @@ button {
 button:hover {
     background: #6879D0;
     cursor: pointer;
-}
-/* \----------------------cheats----------------------\ */
-#cheats {
-    color: lightgoldenrodyellow;
-    background: radial-gradient(circle,  rgba(0, 0, 100, 1), #001818 75%);
-    padding: 10px 0 20px 0;
-    margin: 0 auto;
-    width: 345px;
-    border-radius: 10px;
 }
 /* \----------------------about----------------------\ */
 /* contacts */
