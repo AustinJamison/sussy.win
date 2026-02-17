@@ -36,10 +36,13 @@ nav {
     background: linear-gradient(to right, transparent, rgba(0,200,128, 0.5), rgba(255,215,0,0.5), rgba(255,0,255,.5), transparent);
     padding: 5px 10px 5px 30px;
     width: 300px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 20px;
 }
 nav a {
     text-align: center;
-    padding: 0 8px;
 }
 nav a img {
     max-width: 40px;
