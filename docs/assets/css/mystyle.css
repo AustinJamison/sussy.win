@@ -173,7 +173,6 @@ button:hover {
 }
 /* \----------------------payment----------------------\ */
 #payment {
-    padding: 0 0 0 20px;
     color: black;
     text-align: center;
 }
@@ -182,6 +181,7 @@ button:hover {
     position: relative; 
     height: 50px;
     width: 300px;
+    border-radius: 0 0 4px 4px;
 }
 .child {
     position: absolute;
@@ -195,16 +195,19 @@ button:hover {
     height: 300px;
     width: 300px;
     margin: auto;
+    border-radius: 0 0 4px 4px;
 }
 .lightgreen {
     background: rgba(146,237,79, 0.5);
     width:300px;
     margin:auto;
+    border-radius: 4px 4px 0 0;
 }
 .lightorange {
     background: rgba(255,195,61, 0.5);
     width:300px;
     margin: 25px auto 0 auto;
+    border-radius: 4px 4px 0 0;
 }
 /* \----------------------games----------------------\ */
 .game {
