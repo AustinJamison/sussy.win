@@ -203,3 +203,13 @@ button:hover {
 }
 
 
+/* \----------------------footer----------------------\ */
+footer div{
+    font-style: italic;
+    white-space: nowrap;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
