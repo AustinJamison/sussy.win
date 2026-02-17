@@ -33,7 +33,7 @@ pre {
 }
 /* \----------------------Navigation----------------------\ */
 nav {
-    background: radial-gradient(circle, rgba(255,0,0, 0.5), rgba(218,165,32,0.3), rgba(0,0,255,.3), transparent);
+    background: linear-gradient(to right, transparent, rgba(0,200,128, 0.5), rgba(255,215,0,0.5), rgba(255,0,255,.5), transparent);
     padding: 5px 10px 5px 30px;
     width: 300px;
 }
