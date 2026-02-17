@@ -85,7 +85,7 @@ th {
     width: 300px;
     height: 100px;
     margin: 0 0 0 20px;
-    border: 2px groove;
+    border: 2px lightgoldenrodyellow groove;
     border-width: medium;
 }
 .image {
@@ -122,6 +122,11 @@ button:hover {
 }
 /* \----------------------cheats----------------------\ */
 #cheats {
+    color: lightgoldenrodyellow;
+    background: radial-gradient(circle,  rgba(0, 0, 100, 1), #001818 75%);
+    padding: 10px 0 20px 0;
+    width: 345px;
+    border-radius: 10px;
 }
 /* \----------------------about----------------------\ */
 /* contacts */
@@ -211,8 +216,15 @@ footer {
   height: 60px;
   font-style: italic;
   text-align: center;
-  line-height: 1rem;
-  font-size: .8rem;
+  line-height: 16px;
+  font-size: 13px;
+  margin: auto;
+}
+footer p:first-child {
+    padding: 50px 0 0 0;
+}
+footer p:last-child {
+    padding: 0 0 20px 0;
 }
 body::after {
   content: '';
