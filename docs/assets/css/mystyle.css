@@ -19,7 +19,7 @@ body {
 }
 pre {
     color: #4AF262;
-    margin-left: 20px;
+    text-align: center;
 }
 .b {
     font-weight: bold;
@@ -33,8 +33,7 @@ pre {
 /* \----------------------Navigation----------------------\ */
 nav {
     background: linear-gradient(to right, transparent, rgba(0,200,128, 0.5), rgba(255,215,0,0.5), rgba(255,0,255,.5), transparent);
-    padding: 5px 10px 5px 30px;
-    width: 300px;
+    width: 100vw;
     display: flex;
     justify-content: center;  
     align-items: center;      
@@ -125,6 +124,7 @@ button:hover {
     color: lightgoldenrodyellow;
     background: radial-gradient(circle,  rgba(0, 0, 100, 1), #001818 75%);
     padding: 10px 0 20px 0;
+    margin: 0 auto;
     width: 345px;
     border-radius: 10px;
 }
@@ -133,11 +133,12 @@ button:hover {
 .yellow {
     width:310px;
     background:  rgba(255,211,0,.9);
-    margin: 0 0 20px 20px;
+    margin: 25px auto 25px auto;
     font-style: italic;
     text-align: center;
     border-radius: 4px;
     color: black;
+    
 }
 
 /* q&a */
@@ -165,6 +166,7 @@ button:hover {
     padding: 10px 0 20px 0;
     width: 345px;
     border-radius: 10px;
+    margin: auto;
 }
 #q\&a div {
     margin: 10px 0 0 0;
@@ -173,6 +175,7 @@ button:hover {
 #payment {
     padding: 0 0 0 20px;
     color: black;
+    text-align: center;
 }
 .box {
     background: lightgray;
@@ -184,27 +187,29 @@ button:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin: 0;
-    margin-left: 60px;
+    margin: auto;
 }
 .paybox {
     background: orange;
     position: relative; 
     height: 300px;
     width: 300px;
+    margin: auto;
 }
 .lightgreen {
     background: rgba(146,237,79, 0.5);
     width:300px;
+    margin:auto;
 }
 .lightorange {
     background: rgba(255,195,61, 0.5);
     width:300px;
+    margin: 25px auto 0 auto;
 }
 /* \----------------------games----------------------\ */
 .game {
     width: 310px;
-    padding: 0 0 0 20px;
+    margin: 25px auto 0 auto;
 }
 
 
@@ -212,8 +217,8 @@ button:hover {
 footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 60px;
+  width: 100vw;
+  height: 85px;
   font-style: italic;
   text-align: center;
   line-height: 16px;
@@ -221,13 +226,13 @@ footer {
   margin: auto;
 }
 footer p:first-child {
-    padding: 50px 0 0 0;
+    padding: 25px 0 0 0;
 }
 footer p:last-child {
-    padding: 0 0 20px 0;
+    padding: 0 0 25px 0;
 }
 body::after {
   content: '';
   display: block;
-  height: 60px;
+  height: 85px;
 }
