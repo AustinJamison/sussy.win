@@ -1,26 +1,25 @@
-:root {
+* {
     /* overscroll-behavior: none;   */
-    background-color: black;
     margin: 0;
     padding: 0;
     scrollbar-width: none; 
     -ms-overflow-style: none;
-    color: lightgoldenrodyellow;
-    word-wrap: break-word;
-    /*
-    border-color: red;
-    background-color: lightcoral;
-    */
+    word-wrap: break-word; /*
+    border: 2px solid red; */
 }
+
 html::-webkit-scrollbar {
     display: none;
 }
 body {
-    padding-bottom: 50px;
+    background-color: black;
+    min-height: 100vh;
+    position: relative;
+    color: lightgoldenrodyellow;
 }
 pre {
     color: #4AF262;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 .b {
     font-weight: bold;
@@ -121,17 +120,21 @@ button:hover {
     background: #6879D0;
     cursor: pointer;
 }
+/* \----------------------cheats----------------------\ */
+#cheats {
+}
 /* \----------------------about----------------------\ */
 /* contacts */
 .yellow {
     width:310px;
     background:  rgba(255,211,0,.9);
-    margin: 0 0 0 20px;
+    margin: 0 0 20px 20px;
     font-style: italic;
     text-align: center;
-    color: black;
     border-radius: 4px;
+    color: black;
 }
+
 /* q&a */
 #q\&a p.q::before {
     content: "Q: ";
@@ -188,13 +191,10 @@ button:hover {
 .lightgreen {
     background: rgba(146,237,79, 0.5);
     width:300px;
-    margin-bottom: -10px;
 }
 .lightorange {
     background: rgba(255,195,61, 0.5);
     width:300px;
-    word-wrap: break-word;
-    margin-bottom: -10px;
 }
 /* \----------------------games----------------------\ */
 .game {
@@ -204,12 +204,18 @@ button:hover {
 
 
 /* \----------------------footer----------------------\ */
-footer div{
-    font-style: italic;
-    white-space: nowrap;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1rem;
+  font-size: .8rem;
+}
+body::after {
+  content: '';
+  display: block;
+  height: 60px;
 }
