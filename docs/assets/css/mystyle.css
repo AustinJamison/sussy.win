@@ -124,12 +124,13 @@ button:hover {
 /* \----------------------about----------------------\ */
 /* contacts */
 .yellow {
-    width:300px;
+    width:310px;
     background:  rgba(255,211,0,.9);
     margin: 0 0 0 20px;
     font-style: italic;
     text-align: center;
     color: black;
+    border-radius: 4px;
 }
 /* q&a */
 #q\&a p.q::before {
