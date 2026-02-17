@@ -5,55 +5,22 @@
     padding: 0;
     scrollbar-width: none; 
     -ms-overflow-style: none;
+    color: lightgoldenrodyellow;
+    word-wrap: break-word;
+    /*
+    border-color: red;
+    background-color: lightcoral;
+    */
 }
 html::-webkit-scrollbar {
     display: none;
 }
-.imp {
-    background-color: transparent !important;
+body {
+    padding-bottom: 50px;
 }
 pre {
     color: #4AF262;
     margin-left: 15px;
-}
-nav {
-    margin-left: 10px;
-    width: 300px;
-    
-}
-.navfade {
-    background: radial-gradient(circle, rgba(255,0,0, 0.5), rgba(218,165,32,0.3), rgba(0,0,255,.3), transparent);
-padding: 10px;
-}
-
-
-.c {
-    text-align: center;
-}
-body {
-    padding-bottom: 50px;
-}
-.ml {
-    margin-left: 20px;
-}
-.mr {
-    margin-right: 10px;
-}
-.mt {
-    margin-top: 10px;
-}
-nav a {
-    margin-right: 8px;
-    margin-left: 5px;
-}
-a:link {
-    color: aqua;
-}
-a:hover {
-    color: lightgoldenrodyellow !important;
-}
-a:active {
-    color: orange !important;
 }
 .b {
     font-weight: bold;
@@ -64,31 +31,30 @@ a:active {
 .i {
     font-style: italic;
 }
-.box {
-    background: lightgray;
-    position: relative; 
-    height: 50px;
+/* \----------------------Navigation----------------------\ */
+nav {
+    background: radial-gradient(circle, rgba(255,0,0, 0.5), rgba(218,165,32,0.3), rgba(0,0,255,.3), transparent);
+    padding: 5px 10px 5px 30px;
     width: 300px;
 }
-.child {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0;
-    margin-left: 60px;
+nav a {
+    text-align: center;
+    padding: 0 8px;
 }
-.paybox {
-    background: orange;
-    position: relative; 
-    height: 300px;
-    width: 300px;
+nav a img {
+    max-width: 40px;
+    height: auto;
+    vertical-align: middle;
 }
-.lightgreen {
-    background: rgba(146,237,79, 0.5);
-    width:300px;
-    margin-bottom: -10px;
+a:link {
+    color: aqua;
 }
-
+a:hover {
+    color: lightgoldenrodyellow !important;
+}
+a:active {
+    color: orange !important;
+}
 /* \----------------------TABLE----------------------\ */
 table, td, th, tbody, theader {
     border-collapse: collapse;
@@ -111,39 +77,7 @@ th {
     text-align: center;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-.lightorange {
-    background: rgba(255,195,61, 0.5);
-    width:300px;
-    word-wrap: break-word;
-    margin-bottom: -10px;
-}
-
-.lightyellow {
-    width:300px;
-    background:  rgba(255,211,0,.9);
-    word-wrap: break-word;
-}
-.test {
-    border-color: red;
-    background-color: lightcoral;
-}
-
-.pink {
-    color: deeppink;
-}
 /* \----------------------buttons----------------------\ */
-
 .container {
     position:relative;
     width: 300px;
@@ -176,32 +110,23 @@ th {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.button {
+button {
     background: #75BFEC;
     color: black;
 }
-.button:hover {
+button:hover {
     background: #6879D0;
     cursor: pointer;
 }
-.black, .black:hover{
-    color: black;
-}
-.white {
-    color:lightgoldenrodyellow;
-    word-wrap: break-word;
-    width:300px;
-}
-
-
 /* \----------------------about----------------------\ */
 /* contacts */
-#contact {
+.yellow {
     width:300px;
     background:  rgba(255,211,0,.9);
     margin: 0 0 0 20px;
     font-style: italic;
     text-align: center;
+    color: black;
 }
 /* q&a */
 #q\&a p.q::before {
@@ -231,6 +156,46 @@ th {
 }
 #q\&a div {
     margin: 10px 0 0 0;
+}
+/* \----------------------payment----------------------\ */
+#payment {
+    padding: 0 0 0 20px;
+    color: black;
+}
+.box {
+    background: lightgray;
+    position: relative; 
+    height: 50px;
+    width: 300px;
+}
+.child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    margin-left: 60px;
+}
+.paybox {
+    background: orange;
+    position: relative; 
+    height: 300px;
+    width: 300px;
+}
+.lightgreen {
+    background: rgba(146,237,79, 0.5);
+    width:300px;
+    margin-bottom: -10px;
+}
+.lightorange {
+    background: rgba(255,195,61, 0.5);
+    width:300px;
+    word-wrap: break-word;
+    margin-bottom: -10px;
+}
+/* \----------------------games----------------------\ */
+.game {
+    width: 300px;
+    padding: 0 0 0 20px;
 }
 
 
