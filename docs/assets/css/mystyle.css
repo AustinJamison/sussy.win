@@ -12,12 +12,13 @@ html::-webkit-scrollbar {
     display: none;
 }
 body {
-    /* background-color: black; 
+    /* 
     background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2Fv1.Y2lkPTc5MGI3NjExOWt1enpydG5oZzMyOHJnM2txajZ3ZHRjcWtkeWE0eWRxamNrMHh5NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw%2FLQULARulzL0QH3xzkK%2Fgiphy.gif&f=1&nofb=1&ipt=ef9daadd4dc7f666030c03a397b206e8c6c304dd066d7823d5ed1ac410d953f2);
     background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F20458297.gif&f=1&nofb=1&ipt=71ad8fb729a3dc390eb8cf553ddc6a4513ca3b1d6c5c81834d36a7b9c3fee1fe);
     */
-    background: url('https://sussy.win/assets/images/amongbg.gif');
-    background-size: cover;
+    background: url('https://sussy.win/assets/images/amongbg.gif'), black;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
     position: relative;
