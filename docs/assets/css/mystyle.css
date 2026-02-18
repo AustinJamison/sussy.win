@@ -12,15 +12,18 @@ html::-webkit-scrollbar {
     display: none;
 }
 body {
-    /* 
+    /*blackflowbg*/
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2Fv1.Y2lkPTc5MGI3NjExOWt1enpydG5oZzMyOHJnM2txajZ3ZHRjcWtkeWE0eWRxamNrMHh5NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw%2FLQULARulzL0QH3xzkK%2Fgiphy.gif&f=1&nofb=1&ipt=ef9daadd4dc7f666030c03a397b206e8c6c304dd066d7823d5ed1ac410d953f2');
+    /*
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F20458297.gif&f=1&nofb=1&ipt=71ad8fb729a3dc390eb8cf553ddc6a4513ca3b1d6c5c81834d36a7b9c3fee1fe');
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.gifer.com%2FX226.gif&f=1&nofb=1&ipt=12e5bdd49769fdbf337861ce8d53246ef086a176f810ec1f2b1a3f86bbc16034');
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fart.ngfiles.com%2Fimages%2F1498000%2F1498851_ghostwarriors_siren-head-attack-fan-gif-from-gw-universe.gif%3Ff1604947850&f=1&nofb=1&ipt=e45c28783d159d45a9fddb1141963141e37408d0abb6142bc1bfa80608cc181d');
     background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgiffiles.alphacoders.com%2F276%2F2766.gif&f=1&nofb=1&ipt=baeb6d87bb41e3b33a27bcce0185ff265b6964424087277ae8446dc00864c579');
-    */
+    /*
+    amonggb 
     background: url('https://sussy.win/assets/images/amongbg.gif'), black;
-    background-size: cover;
+    */
+    background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; /* calc(50% + -69px); */
