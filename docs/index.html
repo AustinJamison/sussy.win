@@ -62,5 +62,17 @@
                 <p>All rights reserved &#169</p>
                 <p><span class="b">sussy.win</span>, an official forttag productions co.</p>
         </footer>
+        <script>
+            window.onload = function() {
+                // Check if the background image has already been set in session storage
+            if (!sessionStorage.getItem('bgImageLoaded')) {
+                // Set the background image
+            document.body.style.backgroundImage = "url('https://sussy.win/assets/images/amongbg.gif')";
+                // Mark the image as loaded
+            sessionStorage.setItem('bgImageLoaded', 'true');
+        }
+        };
+        </script>
+
     </body>
 </html>
