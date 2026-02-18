@@ -20,7 +20,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: calc(50% + 0px) calc(50% + -69px);
     min-height: 100vh;
     position: relative;
     color: lightgoldenrodyellow;
