@@ -27,6 +27,7 @@ body {
 pre {
     color: #4AF262;
     text-align: center;
+    background-color: rgba(0,0,0,.5)
 }
 .b {
     font-weight: bold;
