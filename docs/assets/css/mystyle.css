@@ -27,7 +27,7 @@ body {
 pre {
     color: #4AF262;
     text-align: center;
-    background-color: rgba(0,0,0,.5)
+    background-color: rgba(0,0,0,.8)
 }
 .b {
     font-weight: bold;
@@ -41,6 +41,7 @@ pre {
 /* \----------------------Navigation----------------------\ */
 nav {
     background: linear-gradient(to right, transparent, rgba(0,200,128, 0.5), rgba(255,215,0,0.5), rgba(255,0,255,.5), transparent);
+    background-color: rgba(0,0,0,.8);
     width: 100vw;
     display: flex;
     justify-content: center;  
