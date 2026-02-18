@@ -56,6 +56,9 @@ a:hover {
 a:active {
     color: orange !important;
 }
+a:visited {
+    color: aqua;
+}
 /* \----------------------TABLE----------------------\ */
 table, td, th, tbody, theader {
     border-collapse: collapse;
