@@ -20,7 +20,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: calc(50% + 0px) calc(50% + -69px);
+    background-position: center; /* calc(50% + -69px); */
     min-height: 100vh;
     position: relative;
     color: lightgoldenrodyellow;
@@ -253,6 +253,12 @@ footer {
 }
 footer p:first-child {
     padding: 25px 0 0 0;
+}
+.bgblur {
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    padding: -20px 0 0 0;
+    border-radius: 5px;
 }
 footer p:last-child {
     padding: 0 0 25px 0;
