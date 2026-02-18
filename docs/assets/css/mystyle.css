@@ -17,10 +17,10 @@ body {
     background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F20458297.gif&f=1&nofb=1&ipt=71ad8fb729a3dc390eb8cf553ddc6a4513ca3b1d6c5c81834d36a7b9c3fee1fe);
     */
     background: url('https://sussy.win/assets/images/amongbg.gif'), black;
-    background-size: contain;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: left center;
+    background-position: center;
     min-height: 100vh;
     position: relative;
     color: lightgoldenrodyellow;
