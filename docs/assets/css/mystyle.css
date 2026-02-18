@@ -4,7 +4,7 @@
     padding: 0;
     scrollbar-width: none; 
     -ms-overflow-style: none;
-    word-wrap: break-word; /*
+    word-wrap: break-word;  /*
     border: 2px solid red; */
 }
 
@@ -18,8 +18,9 @@ body {
     */
     background: url('https://sussy.win/assets/images/amongbg.gif'), black;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
+    background-position: left center;
     min-height: 100vh;
     position: relative;
     color: lightgoldenrodyellow;
