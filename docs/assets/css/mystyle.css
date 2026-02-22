@@ -4,8 +4,8 @@
     padding: 0;
     scrollbar-width: none; 
     -ms-overflow-style: none;
-    word-wrap: break-word;  /*
-    border: 2px solid red; */
+    word-wrap: break-word;  
+    //border: 2px solid red;
 }
 
 html::-webkit-scrollbar {
@@ -48,9 +48,11 @@ pre {
 }
 /* \----------------------Navigation----------------------\ */
 nav {
-    background: linear-gradient(to right, transparent, rgba(0,200,128, 0.5), rgba(255,215,0,0.5), rgba(255,0,255,.5), transparent);
-    background-color: rgba(0,0,0,.8);
+    //background: linear-gradient(to right, #4AF262, rgba(255,215,0,1));
+    background: #001818;
     width: 100vw;
+    max-width: 450px;
+    margin: auto;
     display: flex;
     justify-content: center;  
     align-items: center;      
@@ -58,6 +60,8 @@ nav {
 }
 nav a {
     text-align: center;
+    color: black;
+    font-weight: 700;
 }
 nav a img {
     max-width: 40px;
@@ -65,32 +69,38 @@ nav a img {
     vertical-align: middle;
 }
 a:link {
-    color: #66ffcc;
-}
-a:hover {
-    color: #ff3333 !important;
-}
-a:active {
-    color: #4AF262 !important;
+    color: #4AF262;
+    font-weight: 700;
 }
 a:visited {
-    color: #66ffcc;
+    color: black;
 }
+a:hover {
+    color: lightgoldenrodyellow;
+}
+.active {
+    text-decoration: underline;
+    color: rgba(255,211,0,.9);
+}
+/*
+a:
+a:active {
+    color: #4AF262 !important;
+}*/
 /* \----------------------cheats----------------------\ */
 #cheats {
     color: lightgoldenrodyellow;
-    background: radial-gradient(circle,  rgba(0, 0, 100, 1), #001818 75%);
+    background: #001818;
     padding: 20px 0;
     margin: 0 auto;
     width: 345px;
-    border-radius: 10px;
 }
 .container {
     position:relative;
     width: 300px;
     height: 100px;
     margin: 0 0 0 20px;
-    border: 2px lightgoldenrodyellow groove;
+    //border: 2px #4AF262 groove;
     border-width: medium;
 }
 .image {
@@ -118,12 +128,17 @@ a:visited {
   text-align: center;
 }
 button {
-    background: #75BFEC;
+    padding: 5px;
+    background: #6879D0;
     color: black;
+    border: none;
+    font-weight: 700;
 }
 button:hover {
-    background: #6879D0;
+    padding: 5px;
+    background: #9900ff;
     cursor: pointer;
+    font-weight: 700;
 }
 /* \----------------------about----------------------\ */
 /* contacts */
@@ -133,8 +148,9 @@ button:hover {
     margin: 25px auto 25px auto;
     font-style: italic;
     text-align: center;
-    border-radius: 4px;
     color: black;
+    font-weight: 500;
+    
     
 }
 
@@ -159,10 +175,9 @@ button:hover {
 }
 #q\&a {
     color: lightgoldenrodyellow;
-    background: radial-gradient(circle,  rgba(0, 0, 100, 1), #001818 75%);
+    background: #001818;
     padding: 10px 0 20px 0;
     width: 345px;
-    border-radius: 10px;
     margin: auto;
 }
 #q\&a div {
@@ -178,7 +193,6 @@ button:hover {
     position: relative; 
     height: 50px;
     width: 300px;
-    border-radius: 0 0 4px 4px;
 }
 .child {
     position: absolute;
@@ -192,19 +206,16 @@ button:hover {
     height: 300px;
     width: 300px;
     margin: auto;
-    border-radius: 0 0 4px 4px;
 }
 .lightgreen {
     background: rgba(146,237,79, 0.6);
     width:300px;
     margin:auto;
-    border-radius: 4px 4px 0 0;
 }
 .lightorange {
     background: rgba(255,195,61, 0.6);
     width:300px;
     margin: 25px auto 0 auto;
-    border-radius: 4px 4px 0 0;
 }
 /* \----------------------games----------------------\ */
 .game {
@@ -213,9 +224,8 @@ button:hover {
 }
 /* \----------------------GAME CONTENTS----------------------\ */
 .gamecontents {
-    background: radial-gradient(circle,  rgba(0, 0, 100, 1), #001818 75%);
+    background: #001818;
     padding: 20px 20px;
-    border-radius: 10px;
     margin: auto;
     width: 305px;
 }
@@ -230,7 +240,7 @@ tr th:not(.exc1, .exc2) {
     width: 20%;
 }
 .exc1 {
-    background-color: #ff6633;
+    background-color: #dd6836;
     color: black;
 }
 .exc2 {
@@ -238,14 +248,14 @@ tr th:not(.exc1, .exc2) {
     color: black;
 }
 .monero {
-    background: #ff663380;
-    color: rgba(146,237,79, 1);
+    background: #dd6836CC;
+    color: black;
     text-align: center;
     font-weight: bold;
 }
 .cashapp {
-    background: #4AF26280;
-    color: rgba(146,237,79, 1);
+    background: #4AF262CC;
+    color: black;
     text-align: center;
     font-weight: bold;
 }
@@ -268,13 +278,12 @@ footer {
 }
 footer p:first-child {
     padding: 25px 0 0 0;
-}
+}/*
 .bgblur {
-    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Apply blur effect */
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
     padding: -20px 0 0 0;
-    border-radius: 5px;
-}
+}*/
 footer p:last-child {
     padding: 0 0 25px 0;
 }
