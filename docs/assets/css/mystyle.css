@@ -240,7 +240,7 @@ tr th:not(.exc1, .exc2) {
     width: 20%;
 }
 .exc1 {
-    background-color: #dd6836;
+    background-color: #e97e00;
     color: black;
 }
 .exc2 {
@@ -248,7 +248,7 @@ tr th:not(.exc1, .exc2) {
     color: black;
 }
 .monero {
-    background: #dd6836CC;
+    background: #e97e00CC;
     color: black;
     text-align: center;
     font-weight: bold;
