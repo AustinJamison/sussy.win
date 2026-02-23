@@ -55,6 +55,7 @@ pre {
 }
 .u {
     text-decoration: underline;
+    font-weight: 700;
 }
 .i {
     font-style: italic;
@@ -142,16 +143,18 @@ a:active {
 }
 button {
     padding: 5px;
-    background: #6879D0;
+    background: #8c9eff;
     color: black;
     border: none;
+    font-family: bold;
     font-weight: 700;
     vertical-align: middle;
 }
 button:hover {
     padding: 5px;
-    background: #9900ff;
+    background: #4B61E1;
     cursor: pointer;
+    font-family: bold;
     font-weight: 700;
 }
 /* \----------------------about----------------------\ */
