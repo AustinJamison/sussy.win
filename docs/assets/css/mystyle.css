@@ -1,7 +1,20 @@
+@font-face {
+    font-family: "regular";
+    src: url("../fonts/CONSOLA.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "bold";
+    src: url("../fonts/CONSOLAB.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     /* overscroll-behavior: none;   */
     margin: 0;
     padding: 0;
+    font-family: regular;
     scrollbar-width: none; 
     -ms-overflow-style: none;
     word-wrap: break-word;  
@@ -38,7 +51,7 @@ pre {
     background-color: rgba(0,0,0,.8)
 }
 .b {
-    font-weight: bold;
+    font-family: bold;
 }
 .u {
     text-decoration: underline;
@@ -133,6 +146,7 @@ button {
     color: black;
     border: none;
     font-weight: 700;
+    vertical-align: middle;
 }
 button:hover {
     padding: 5px;
@@ -216,6 +230,9 @@ button:hover {
     background: rgba(255,195,61, 0.6);
     width:300px;
     margin: 25px auto 0 auto;
+}
+.lightorange p {
+    padding: 0 5px;
 }
 /* \----------------------games----------------------\ */
 .game {
