@@ -72,7 +72,7 @@ nav {
     //background: linear-gradient(to right, #4AF262, rgba(255,215,0,1));
     background: #001818;
     outline: 1px solid greenyellow;
-    width: 100vw;
+    width: 99vw;
     max-width: 450px;
     margin: auto;
     display: flex;
