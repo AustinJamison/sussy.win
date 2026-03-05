@@ -43,13 +43,19 @@ body {
     background-position: center; /* calc(50% + -69px); */
     min-height: 100vh;
     position: relative;
-    color: lightgoldenrodyellow;
+    color: #f0f8ff;
 }
 pre {
     color: greenyellow;
     text-align: center;
     //background-color: rgba(0,0,0,.8)
 }
+@media (max-width: 500px) {
+    .pre {
+        transform: scale(.9)
+    }
+}
+
 .b {
     font-family: bold;
 }
@@ -64,6 +70,7 @@ pre {
 nav {
     //background: linear-gradient(to right, #4AF262, rgba(255,215,0,1));
     background: #001818;
+    outline: 1px solid greenyellow;
     width: 100vw;
     max-width: 450px;
     margin: auto;
@@ -76,6 +83,8 @@ nav a {
     text-align: center;
     color: black;
     font-weight: 700;
+    transform: scale(1);
+    transition: .1s ease-in-out
 }
 nav a img {
     max-width: 40px;
@@ -90,11 +99,14 @@ a:visited {
     color: greenyellow;
 }
 a:hover {
-    color: lightgoldenrodyellow;
+    color: #f0f8ff;
+    transform: scale(1.1);
+    transition: .1s ease-in-out
 }
 .active {
     text-decoration: underline;
-    color: rgba(255,211,0,.9);
+    color: rgba(255,211,0,.9) !important;
+    transform: scale(1) !important;
 }
 /*
 a:
@@ -103,7 +115,8 @@ a:active {
 }*/
 /* \----------------------cheats----------------------\ */
 #cheats {
-    color: lightgoldenrodyellow;
+    color: #f0f8ff;
+    outline: 1px solid greenyellow;
     background: #001818;
     padding: 20px 0;
     margin: 0 auto;
@@ -191,7 +204,8 @@ button:hover {
     width:300px;
 }
 #q\&a {
-    color: lightgoldenrodyellow;
+    outline: 1px solid greenyellow;
+    color: #f0f8ff;
     background: #001818;
     padding: 10px 0 20px 0;
     width: 345px;
@@ -244,6 +258,7 @@ button:hover {
 }
 /* \----------------------GAME CONTENTS----------------------\ */
 .gamecontents {
+    outline: 1px solid greenyellow;
     background: #001818;
     padding: 20px 20px;
     margin: auto;
@@ -256,7 +271,7 @@ table, td, th, tbody, theader {
 }
 tr th:not(.exc1, .exc2) {
     background: rgba(0, 0, 0, .5);
-    color: lightgoldenrodyellow;
+    color: #f0f8ff;
     width: 20%;
 }
 .exc1 {
