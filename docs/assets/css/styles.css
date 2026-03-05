@@ -19,6 +19,7 @@
     -ms-overflow-style: none;
     word-wrap: break-word;  
     //border: 2px solid red;
+    border-radius: 3px;
 }
 
 html::-webkit-scrollbar {
@@ -237,16 +238,19 @@ button:hover {
     height: 300px;
     width: 300px;
     margin: auto;
+    border-radius: 0 0 3px 3px;
 }
 .lightgreen {
     background: rgba(146,237,79, 0.6);
     width:300px;
     margin:auto;
+    border-radius: 3px 3px 0 0;
 }
 .lightorange {
     background: rgba(255,195,61, 0.6);
     width:300px;
     margin: 25px auto 0 auto;
+    border-radius: 3px 3px 0 0;
 }
 .lightorange p {
     padding: 0 5px;
