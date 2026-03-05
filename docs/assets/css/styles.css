@@ -18,7 +18,7 @@
     scrollbar-width: none; 
     -ms-overflow-style: none;
     word-wrap: break-word;  
-    //border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 3px;
 }
 
@@ -200,6 +200,7 @@ button:hover {
     background: rgba(37, 121, 49, 1);
     width:300px;
     margin: 0 0 0 20px;
+    border-radius: 3px 3px 0 0;
 }
 #q\&a p.a::before {
     content: "A: ";
@@ -209,6 +210,7 @@ button:hover {
     margin: 0 0 0 20px;
     background: rgba(0, 0, 0, 1);
     width:300px;
+    border-radius: 0 0 3px 3px;
 }
 #q\&a {
     outline: 1px solid greenyellow;
@@ -274,25 +276,17 @@ button:hover {
     margin: auto;
     width: 305px;
 }
-.download {
+.down {
     outline: 1px solid greenyellow;
     background: #001818;
-    padding: 20px 20px;
+    padding: 20px;
     margin: auto;
     width: 305px;
 }
-.bruh {
-    background: #4B61E1;
-    text-align: left;
-    padding: 10px;
-}
-.bruh a {
-    color: black;
-}
-
 table, td, th, tbody, theader {
     border-collapse: collapse;
     border: none;
+    border-radius: 0;
 }
 tr th:not(.exc1, .exc2) {
     background: rgba(0, 0, 0, .5);
