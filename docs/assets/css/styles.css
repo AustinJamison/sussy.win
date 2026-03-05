@@ -91,6 +91,12 @@ nav a img {
     max-width: 40px;
     height: auto;
     vertical-align: middle;
+}/*
+nav a img:hover {
+    filter: brightness(60%) hue-rotate(55deg) contrast(150%);
+}*/
+nav a img:hover {
+    filter: brightness(200%);
 }
 a:link {
     color: greenyellow;
@@ -267,6 +273,21 @@ button:hover {
     padding: 20px 20px;
     margin: auto;
     width: 305px;
+}
+.download {
+    outline: 1px solid greenyellow;
+    background: #001818;
+    padding: 20px 20px;
+    margin: auto;
+    width: 305px;
+}
+.bruh {
+    background: #4B61E1;
+    text-align: left;
+    padding: 10px;
+}
+.bruh a {
+    color: black;
 }
 
 table, td, th, tbody, theader {
