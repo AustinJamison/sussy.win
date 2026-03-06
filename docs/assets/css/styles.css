@@ -97,7 +97,7 @@ nav a img:active {
 }
 @media (max-width: 500px) {
     nav a img:hover {
-        filter: brightness(0) saturate(100%) invert(68%) sepia(58%) saturate(1420%) hue-rotate(9deg) brightness(102%) contrast(101%);
+        filter: brightness(0) saturate(100%) invert(68%) sepia(58%) saturate(1420%) hue-rotate(9deg) brightness(102%) contrast(101%) !important;
     }
 }
 /*
