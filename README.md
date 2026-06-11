@@ -1,1 +1,1 @@
-# sussy.win
+easy brah
