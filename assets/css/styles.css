@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+body {
+    background-color: black;
+    color: white;
+}
+img {
+    width: 50%;
+}
+
