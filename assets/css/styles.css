@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     scrollbar-width: none;
-    -ms-overflow-style: none;
+    -ms-overflow-style: none;/*
+    outline: 2px solid red;*/
 }
 html::-webkit-scrollbar {
     display: none;
@@ -11,7 +12,19 @@ body {
     background-color: black;
     color: white;
 }
+div {
+    width: 100%;
+}
 img {
-    width: 50%;
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+p {
+    padding: 20px;
+    text-align: center;
 }
 
