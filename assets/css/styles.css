@@ -15,10 +15,56 @@ body {
 pre {
     text-align: center;
 }
-div {
-    width: 100%;
+#downloadp {
+    background-color: gold;
+    color: black;
+    margin: 20px 0 0 0;
+    font-weight: 900;
+    text-align: center;
 }
+.rainbow{
+  font-weight: 800;
+
+  background: linear-gradient(
+    90deg,
+    #ff1744 0%,
+    #ff9100 16%,
+    #ffe600 32%,
+    #00e676 48%,
+    #00b0ff 64%,
+    #651fff 80%,
+    #ff1744 100%
+  );
+
+  background-size: 400% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  animation: rainbow-move 6s ease-in-out infinite;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+@keyframes rainbow-move{
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.red {
+    color: blue;
+}
+.yellow {
+    color: purple;
+}
+a {
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+}
+
 #logo {
+    margin-top: 20px;
     max-height: 200px;
     max-width: 200px;
     display: block;
@@ -31,22 +77,15 @@ div {
     height: 100%;
     object-fit: contain;
 }
-p {
-    padding: 20px;
-    text-align: center;
-}
 .container {
-    margin: 20px auto;
+    border: 2px solid lime;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
     width: 90%;
-    height: 50px;
-}
-#red {
-    outline: 1px solid hotpink;
-}
-#yellow {
-    outline: 1px solid yellow;
-}
-#blue {
-    outline: 1px solid cyan;
+    background-color: #fafad2DE;
+    max-width: 200px;
+    height: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
 
