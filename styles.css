@@ -2,12 +2,14 @@
     /*
     outline: 2px solid red; */
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-image: linear-gradient(to right, rgba(96, 19, 82), rgba(188, 71, 110));
     background-color: black;
     font-family: "Comic Sans MS", ui-rounded, system-ui, "sans-serif";
     line-height: 1.7;
+    color: white;
     
 }
 .waifu {
@@ -25,7 +27,7 @@ body {
     padding: 50px 0 6px;
 }
 h1.site {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     margin: 0;
     letter-spacing: 0.02em;
@@ -41,7 +43,35 @@ h1.site .accent {
     color: #fff1db;
     margin: 6px 0 30px;
     font-size: 14px;
-    font-style: italic;
+    font-style: italic; 
+}
+.rainbow{
+
+  background: linear-gradient(
+    90deg,
+    #ff1744 0%,
+    #ff9100 16%,
+    #ffe600 32%,
+    #00FC82 48%,
+    #00b0ff 64%,
+    #cd84ff 80%,
+    #f00 100%
+  );
+
+  background-size: 400% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  animation: rainbow-move 6s ease-in-out infinite;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+@keyframes rainbow-move{
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 .red {
     color: red;
@@ -60,4 +90,28 @@ h1.site .accent {
 }
 .purple {
     color: #FF00BB;
+}
+.wrap {
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.rel {
+    margin:0;
+    background: rgba(0,0,0,.2);
+    border: 2px solid hotpink;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 6px 18px #00000080; /*
+    box-shadow: 0 6px 18px rgba(255,215,0,.5); */
+}
+details.rel summary{
+    font-size: 16px;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 700;
+}
+details.rel .body{
+    font-size: 15px;
+    padding: 8px 0 0 1.3em;
 }
